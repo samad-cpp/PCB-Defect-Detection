@@ -66,6 +66,25 @@ The PCB Defect Model is configured for these six classes:
 
 **Note:** The DeepPCB model uses a different class mapping. Select the correct model and verify its class labels before interpreting predictions.
 
+## Datasets
+
+### 1. PCB Defect Dataset
+- Source: [Kaggle - PCB Defect Dataset](https://www.kaggle.com/datasets/norbertelter/pcb-defect-dataset)
+- Uploaded by: Norbert Elter
+- Contains 10,668 images with YOLO annotations.
+- Includes six PCB defect classes.
+- Dataset is based on the PKU-Market-PCB research dataset.
+
+### 2. DeepPCB Dataset
+- Source: [GitHub - DeepPCB](https://github.com/tangsanli5201/DeepPCB)
+- Contains paired PCB template and test images.
+- Includes six types of PCB defects.
+
+Please refer to the original dataset sources for their usage
+and redistribution conditions.
+
+
+
 ## Models
 
 The application includes two trained model weights:
