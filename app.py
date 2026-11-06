@@ -34,11 +34,6 @@ MODEL_PATHS = {
     )
 }
 
-# MODEL_PATHS = {
-#     "PCB Defect Model (6 classes)": resolve_default_weight(Path("results") / "pcb_yolo_baseline_w0" / "weights" / "best.pt"),
-#     "DeepPCB Model (6 classes)": resolve_default_weight(Path("results") / "deeppcb_yolo_baseline" / "weights" / "best.pt"),
-# }
-
 st.sidebar.header("Inspection settings")
 model_choice = st.sidebar.selectbox("Choose trained model", list(MODEL_PATHS))
 selected_weights_path = Path(MODEL_PATHS[model_choice])
