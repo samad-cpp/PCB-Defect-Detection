@@ -1,0 +1,19 @@
+# Python environment
+.venv/
+.venv312/
+.virtualdocuments/
+
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Datasets
+datasets/
+
+# IDE settings
+.vscode/
+.idea/
+
+# OS files
+Thumbs.db
+.DS_Store
